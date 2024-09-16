@@ -1,0 +1,86 @@
+.add-product-page {
+    padding: 20px;
+  }
+  
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-section label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-section input,
+  .form-section textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .price-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+  
+  .add-product-btn {
+    background-color: #111;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: fit-content;
+  }
+  
+
+
+  /* addprodect */
+  .products-container {
+    padding: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .add-new-product-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .product-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .product-card h3 {
+    margin: 10px 0;
+  }
+  

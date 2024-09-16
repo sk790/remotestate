@@ -1,0 +1,85 @@
+/* General layout */
+.home-decor {
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+  }
+
+  .containerexample {
+    padding: 0 100px 0 100px;
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+  }
+  .header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .header p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  /* Category container */
+  .categories {
+    display: flex;
+    /* width: 50%; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  
+  .category {
+    width: 48%;
+    /* background-color: #f9f9f9; */
+    /* padding: 10px; */
+    /* border-radius: 8px; */
+    transition: transform 0.2s ease;
+  }
+  
+  .category:hover {
+    transform: translateY(-5px);
+  }
+
+  /* Image styling */
+  .category img {
+    width: 100%;
+    height: auto;
+    /* border-radius: 8px; */
+    margin-bottom: 15px;
+  }
+  
+  /* Text and link styling */
+  .category h2 {
+    /* position: absolute; */
+    font-size: 34px;
+    line-height: 38px;
+    letter-spacing: -0.6px;
+    /* font-family:poppins; */
+    margin-bottom: 10px;
+  }
+  
+  .category a {
+    /* position: absolute; */
+    color: black;
+    /* font-weight: bold; */
+    padding: 2px;
+    text-decoration: none;
+    justify-content: start;
+    border-bottom:2px solid black;
+
+  }
+  .widthfix{
+    margin-top: 200px ;
+  }
+  .category-text{
+    position: absolute;
+    padding: 20px;
+  }
+  

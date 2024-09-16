@@ -1,0 +1,69 @@
+.formBox{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    /* margin-top: 8vmax; */
+    background-color: rgb(134, 134, 134);
+    
+}
+
+.inputBox{
+    margin-top: 1vmax;
+    width: 25vmax;
+    display: flex;
+    flex-direction: column;
+    gap: 2vmax;
+    height: 75%;
+    padding: 2vmax;
+}
+.loginLink{
+    text-align: center;
+}
+.loginLink > a{
+    text-decoration: none;
+    color: rgb(123, 127, 127);
+}
+
+.loginLink >a:hover{
+    color: rgb(60, 62, 62);
+}
+
+.signupheading>h2{
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 1vmax;
+}
+.signupimage{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.signupimage>img{
+    width: 3vmax;
+    border-radius: 100%;
+}
+.signupimage>input{
+   display: flex;
+   padding: 0;
+}
+.signupimage>input::file-selector-button{
+    cursor: pointer;
+    width: 100%;
+    height: 3.5vmax;
+    z-index: 2;
+    transition: all 0.5s;
+    margin: 0;
+}
+.signupimage>input::file-selector-button:hover{
+    background-color: aquamarine;
+    border: none;
+    color: white;
+}
+@media screen and (max-width:600px){
+    .inputBox{
+        width: 80%;
+    }
+    .signupimage>input::file-selector-button{
+        height: 6vmax;
+    }
+}

@@ -1,0 +1,46 @@
+
+.dashboard-container {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statistics-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 22%;
+}
+
+.sales-graph {
+  margin-top: 20px;
+}
+
+.deals-details {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.deals-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.deals-details th, .deals-details td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
